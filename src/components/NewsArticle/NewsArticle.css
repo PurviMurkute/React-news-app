@@ -1,0 +1,36 @@
+.news-article-img{
+    height: 250px;
+    width: 420px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.news-article-card{
+    border: 1px solid white;
+    width: 420px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px gray;
+    margin-bottom: 10px;
+}
+
+.article-title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.article-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-read-more{
+    background-color: black;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
